@@ -1,0 +1,1 @@
+start "" pythonw copy_tool.py

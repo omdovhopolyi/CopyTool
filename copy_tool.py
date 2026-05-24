@@ -92,47 +92,6 @@ class TkViewClass:
 def main():
     app = TkViewClass()
     app.run()
-    # Initialize Tkinter window
-    # root = tk.Tk()
-    # root.title("Directory and File Selector")
-
-    # Directory 1 selection button and label
-    # button_from = tk.Button(root, text="Select from directory", command=select_directory_from)
-    # button_from.pack(pady=5)
-    # label_dir_from = tk.Label(root, text="Directory from: Not selected")
-    # label_dir_from.pack(pady=5)
-
-    # Directory 2 selection button and label
-    # button_dir_to = tk.Button(root, text="Select to directory", command=select_directory_to)
-    # button_dir_to.pack(pady=5)
-    # label_dir_to = tk.Label(root, text="Directory to: Not selected")
-    # label_dir_to.pack(pady=5)
-
-    # File selection button and label
-    # button_data_file = tk.Button(root, text="Select data file", command=select_data_file)
-    # button_data_file.pack(pady=5)
-    # label_data_file = tk.Label(root, text="Data File: Not selected")
-    # label_data_file.pack(pady=5)
-
-    # Prefix
-    # prefix_label = tk.Label(root, text="Prefix")
-    # prefix_label.pack(pady=10)
-    # prefix_input = tk.Entry(root, width=20)
-    # prefix_input.pack(pady=10)
-
-    # Extention
-    # extention_label = tk.Label(root, text="ext")
-    # extention_label.pack(pady=10)
-    # extention_input = tk.Entry(root, width=20)
-    # extention_input.pack(pady=10)
-
-    # button_copy = tk.Button(root, text="Copy", command=copy_files)
-    # button_copy.pack(pady=5)
-
-    # log_widget = tk.Text(root, height=10, width=100)
-    # log_widget.pack()
-
-    # root.mainloop()
 
 if __name__ == "__main__":
     main()
